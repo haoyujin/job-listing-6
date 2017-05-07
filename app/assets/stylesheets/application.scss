@@ -96,6 +96,15 @@
     margin-top: 10px;
 }
 //-----------Navbar---------
+
+.black{
+  background-color: black;
+  color: white;
+  &:focus,
+  &:active {
+      outline: none;
+  }
+}
 .navbar-custom {
     padding: 20px;
     margin-bottom: 0;
